@@ -1,6 +1,6 @@
 # TVdex Discord App - Privacy policy
 
-The following document explains what data is collected by F1dex.
+The following document explains what data is collected by TVDex.
 
 ### Glossary
 
@@ -13,10 +13,7 @@ The following document explains what data is collected by F1dex.
 
 ## Open source
 
-F1dex uses the code of BallsDex. The code of BallsDex is open source under the MIT licence and available at https://github.com/laggron42/BallsDex-DiscordBot. A copy of the licence can be found below.
-
-<details>
-  <summary>The MIT licence</summary>
+TVDex uses the code of BallsDex. The code of BallsDex is open source under the MIT licence and available at https://github.com/laggron42/BallsDex-DiscordBot
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
   > of this software and associated documentation files (the "Software"), to deal
@@ -38,7 +35,7 @@ F1dex uses the code of BallsDex. The code of BallsDex is open source under the M
 
 </details>
 
-**The instance is guaranteed to be running an exact copy of the code made open source.** The version may not be the latest available (check `/about`), but no local changes will be made. This may change, but users should be notified in the [Discord server](https://discord.gg/sg23KXxDGB) about such change.
+**The instance is guaranteed to be running an exact copy of the code made open source.** The version may not be the latest available (check `/about`), but no local changes will be made. This may change, but users should be notified in the <a href="https://discord.gg/sg23KXxDGB" target="_blank" rel="noopener noreferrer">Discord server</a> about such change.
 
 You may check the source code and see how the data is managed, in addition to the following policy.
 
@@ -67,13 +64,13 @@ The only persons allowed to access the data are the application owners.
 
 Any application owner may interact with the App and the administrator interface. Only `laggron42` has direct access on the host machine.
 
-The F1dex moderation teams do not have access to the data.
+The TVDex moderation teams do not have access to the data.
 
 The data may never be made available to the public, and its access must be secured accordingly.
 
 ## Your rights
 
-You may request a copy or the deletion of your personal data held by the application by contacting the application owners.
+You may request a copy or the deletion of your personal data held by the application by contacting the application owners in the <a href="https://discord.gg/sg23KXxDGB" target="_blank" rel="noopener noreferrer">Discord server</a>
 
 \---
 
