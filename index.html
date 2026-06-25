@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TVDex Discord App - Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f7fc;
+      --surface: #ffffff;
+      --surface-2: #f3f0fb;
+      --text: #1a2233;
+      --muted: #5a667d;
+      --border: rgba(20,34,51,0.12);
+      --accent: #a93ad8;
+      --quote: rgba(169,58,216,0.08);
+      --content: 920px;
+      --shadow: 0 18px 40px rgba(16,24,40,0.10);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --surface: #121a2d;
+        --surface-2: #18233c;
+        --text: #eef3ff;
+        --muted: #b9c4de;
+        --border: rgba(255,255,255,0.12);
+        --accent: #d37cf6;
+        --quote: rgba(211,124,246,0.14);
+        --shadow: 0 20px 45px rgba(0,0,0,0.28);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(211,124,246,0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(120,160,255,0.12), transparent 24%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 28px 18px 48px;
+    }
+    .page {
+      max-width: var(--content);
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .hero {
+      padding: 38px 28px 24px;
+      background: linear-gradient(180deg, rgba(211,124,246,0.12), transparent 78%);
+      border-bottom: 1px solid var(--border);
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.03rem;
+      max-width: 65ch;
+    }
+    .content {
+      padding: 30px 28px 36px;
+    }
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 1.4rem;
+      line-height: 1.2;
+      color: var(--accent);
+    }
+    h3 {
+      margin: 24px 0 10px;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+    p { margin: 12px 0; }
+    ul {
+      margin: 12px 0;
+      padding-left: 22px;
+    }
+    li { margin: 8px 0; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+    blockquote {
+      margin: 18px 0;
+      padding: 14px 16px;
+      background: var(--quote);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: rgba(127,127,127,0.12);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.95em;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 26px 0 18px;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+    @media (max-width: 640px) {
+      .hero, .content { padding-left: 18px; padding-right: 18px; }
+      body { padding: 14px 10px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">TVDex policy</div>
+      <h1>TVDex Discord App - Privacy Policy</h1>
+      <p class="subtitle">The following document explains what data is collected by TVDex.</p>
+    </section>
+
+    <section class="content">
+      <h3>Glossary</h3>
+      <ul>
+        <li>“Application” or “Discord application” refers to the Discord app user, its associated owners and the servers it has.</li>
+        <li>“Data” refers to data stored by an individual instance, including personal data.</li>
+        <li>“App” or “instance” refers to the copy of the code running the Discord application, with its own data.</li>
+        <li>“Collectible” refers to any object that is meant to be collected, such as drivers or other future means like virtual currency.</li>
+        <li>“Application owners” refers to the owners of the Discord application, meaning the one with any form of access to the application's authentication method and data belonging to the instance.</li>
+        <li>“TVDex moderation team” or “moderation team” refers to the owners of the Discord application and the users they may chose to be part of the moderation team. You may find a list of these users on the <a href="https://discord.gg/sg23KXxDGB" target="_blank" rel="noopener noreferrer">Discord server</a>.</li>
+      </ul>
+
+      <h2>Open source</h2>
+      <p>TVDex uses the code of BallsDex. The code of BallsDex is open source under the MIT licence and available at <a href="https://github.com/laggron42/BallsDex-DiscordBot" target="_blank" rel="noopener noreferrer">https://github.com/laggron42/BallsDex-DiscordBot</a>.</p>
+
+      <blockquote>
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+      </blockquote>
+
+      <blockquote>
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+      </blockquote>
+
+      <blockquote>
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+      </blockquote>
+
+      <p><strong>The instance is guaranteed to be running an exact copy of the code made open source.</strong> The version may not be the latest available (check <code>/about</code>), but no local changes will be made. This may change, but users should be notified in the <a href="https://discord.gg/sg23KXxDGB" target="_blank" rel="noopener noreferrer">Discord server</a> about such change.</p>
+
+      <p>You may check the source code and see how the data is managed, in addition to the following policy.</p>
+
+      <h2>What data is collected</h2>
+      <p>TVDex collects the following data from Discord:</p>
+      <ul>
+        <li>User IDs, this is used to identify you inside our database.</li>
+        <li>Server (or guild) IDs, this is used to store settings necessary to the App's operation.</li>
+        <li>Channel IDs, this is used to know in which channel should the collectibles spawn.</li>
+      </ul>
+
+      <p>In addition, the following data proper to TVDex is created and used:</p>
+      <ul>
+        <li>The list of collectibles owned by a user of the service.</li>
+        <li>A history of trades done on collectibles, including the users that once owned the said collectible but do not anymore.</li>
+      </ul>
+
+      <h2>How the data is stored</h2>
+      <p>All data is stored on a PostgreSQL server, running on a Virtual Private Machine hosted by Oracle Corportation.</p>
+      <p>Interaction between the App and the database server is exclusively local using <a href="https://github.com/tortoise/tortoise-orm" target="_blank" rel="noopener noreferrer">Tortoise ORM</a>.</p>
+
+      <h2>Access to the data</h2>
+      <p>The only persons allowed to access the data are the application owners.</p>
+      <p>Any application owner may interact with the App and the administrator interface. Only <code>laggron42</code> has direct access on the host machine.</p>
+      <p>The TVDex moderation teams do not have access to the data.</p>
+      <p>The data may never be made available to the public, and its access must be secured accordingly.</p>
+
+      <h2>Your rights</h2>
+      <p>You may request a copy or the deletion of your personal data held by the application by contacting the application owners in the <a href="https://discord.gg/sg23KXxDGB" target="_blank" rel="noopener noreferrer">Discord server</a>.</p>
+
+      <hr />
+      <p class="updated">Last updated 24th June 2026</p>
+    </section>
+  </main>
+</body>
+</html>
